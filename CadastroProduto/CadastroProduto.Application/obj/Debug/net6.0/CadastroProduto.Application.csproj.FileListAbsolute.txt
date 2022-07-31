@@ -1,0 +1,17 @@
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Application.deps.json
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Application.dll
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Application.pdb
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Dominio.dll
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Service.dll
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Service.pdb
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\bin\Debug\net6.0\CadastroProduto.Dominio.pdb
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.csproj.AssemblyReference.cache
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.AssemblyInfoInputs.cache
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.AssemblyInfo.cs
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.csproj.CopyComplete
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.dll
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\refint\CadastroProduto.Application.dll
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\CadastroProduto.Application.pdb
+C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Application\obj\Debug\net6.0\ref\CadastroProduto.Application.dll
