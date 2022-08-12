@@ -15,7 +15,7 @@ namespace Shared.Data
             sb.Username = "postgres";
             sb.Password = "postgres";
             sb.Database = "armazem";
-            sb.Port = 5433;
+            sb.Port = 5432;
             sb.Timeout = 90;
 
             var conexao = new NpgsqlConnection(sb.ConnectionString);

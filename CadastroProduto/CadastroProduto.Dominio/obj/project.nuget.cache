@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRjQxrDvmGHMPlNG2T5e1Fyp8t1CVj6A14QrzgBYOVJ9BtDxNmPL9lUCY66544uvOkiWLVxwRijFqoBhf5a/pQ==",
+  "dgSpecHash": "nqdNOHWNZVSYQucW1LawL3v/brRjwcZjEE6HmNsHyHs+VSSaabC5dgOL2kiILBGgl9HbgGWOUrZMDOH9fmY2Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

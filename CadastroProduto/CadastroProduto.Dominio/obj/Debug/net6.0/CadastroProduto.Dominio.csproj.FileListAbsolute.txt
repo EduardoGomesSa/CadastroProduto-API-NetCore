@@ -10,3 +10,15 @@ C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Dominio\obj\Debug\
 C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\refint\CadastroProduto.Dominio.dll
 C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.pdb
 C:\Users\Eduardo\source\repos\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\ref\CadastroProduto.Dominio.dll
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\bin\Debug\net6.0\CadastroProduto.Dominio.deps.json
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\bin\Debug\net6.0\CadastroProduto.Dominio.dll
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\bin\Debug\net6.0\CadastroProduto.Dominio.pdb
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.csproj.AssemblyReference.cache
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.AssemblyInfoInputs.cache
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.AssemblyInfo.cs
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.dll
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\refint\CadastroProduto.Dominio.dll
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\CadastroProduto.Dominio.pdb
+C:\Users\eduar\Source\Repos\CadastroProduto-API-NetCore\CadastroProduto\CadastroProduto.Dominio\obj\Debug\net6.0\ref\CadastroProduto.Dominio.dll

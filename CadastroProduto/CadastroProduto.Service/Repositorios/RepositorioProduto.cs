@@ -40,7 +40,7 @@ namespace CadastroProduto.Service.Repositorios
         {
             var query = $"select * from cadastro.produto where codigo = '{codigo}';";
 
-            return DBHelper<Produto>.InstanciaNpgsql.Get(query) != null;
+            return DBHelper<Produto>.InstanciaNpgsql.GetQuery(query).Count > 0;
         }
     }
 }

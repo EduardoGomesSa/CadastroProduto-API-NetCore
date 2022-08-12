@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj": {}
+    "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj": {
+    "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj",
         "projectName": "CadastroProduto.Application",
-        "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\obj\\",
+        "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj": {
-                "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj"
+              "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj": {
+                "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj"
               }
             }
           }
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,21 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj": {
+    "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
         "projectName": "CadastroProduto.Dominio",
-        "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,7 +114,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -122,21 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj": {
+    "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
         "projectName": "CadastroProduto.Service",
-        "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Service\\obj\\",
+        "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj"
+              "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj": {
+                "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj"
               }
             }
           }
@@ -181,7 +183,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -190,21 +193,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj": {
+    "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj",
         "projectName": "CadastroProduto.Api",
-        "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto\\obj\\",
+        "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto\\CadastroProduto.Api.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,8 +221,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj": {
-                "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj"
+              "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj": {
+                "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Application\\CadastroProduto.Application.csproj"
               }
             }
           }
@@ -253,7 +256,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -265,7 +269,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

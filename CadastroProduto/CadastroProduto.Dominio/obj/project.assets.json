@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Eduardo\\.nuget\\packages\\": {}
+    "C:\\Users\\eduar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
       "projectName": "CadastroProduto.Dominio",
-      "projectPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduardo\\source\\repos\\CadastroProduto\\CadastroProduto.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\CadastroProduto.Dominio.csproj",
+      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
