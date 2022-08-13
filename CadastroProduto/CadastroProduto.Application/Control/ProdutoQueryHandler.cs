@@ -1,6 +1,6 @@
 ﻿using CadastroProduto.Application.Queries;
 using CadastroProduto.Dominio.Entidades;
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Service.Interfaces;
 using MediatR;
 
 namespace CadastroProduto.Application.Control
@@ -47,7 +47,7 @@ namespace CadastroProduto.Application.Control
                 Descricao = produto.Descricao,
                 Preco = produto.Preco,
                 QuantidadeEmEstoque = produto.QuantidadeEmEstoque,
-                Categoria = produto.Categoria
+                IdCategoria = produto.IdCategoria
             };
         } 
     }

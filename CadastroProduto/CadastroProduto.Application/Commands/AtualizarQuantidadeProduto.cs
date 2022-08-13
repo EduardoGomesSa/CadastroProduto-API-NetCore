@@ -1,4 +1,6 @@
-﻿using FluentValidation;
+﻿using CadastroProduto.Service.Interfaces;
+using CadastroProduto.Service.Services;
+using FluentValidation;
 using MediatR;
 
 namespace CadastroProduto.Application.Commands
@@ -11,8 +13,12 @@ namespace CadastroProduto.Application.Commands
 
     public class ValidadorAtualizarQuantidadeProduto : AbstractValidator<AtualizarQuantidadeProduto>
     {
-        public ValidadorAtualizarQuantidadeProduto()
+        private readonly IProdutoServices _produtoServices;
+        public ValidadorAtualizarQuantidadeProduto(IProdutoServices produtoServices)
         {
+            _produtoServices = produtoServices;
+
+            RuleFor(p => p).Must(a => _produtoServices.IdProdutoExiste(a.Id)).WithMessage("Produto não existe");
             RuleFor(c => c.QuantidadeEmEstoque).NotEmpty().NotNull().WithMessage("O campo Quantidade não pode ser nulo");
             RuleFor(c => c).Must(a => a.QuantidadeEmEstoque > 0).WithMessage("O campo Quantidade não pode ser zero");
         }

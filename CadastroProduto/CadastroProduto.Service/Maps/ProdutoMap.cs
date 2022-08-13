@@ -10,13 +10,32 @@ namespace CadastroProduto.Service.Maps
         {
             Table("produto");
             Schema("cadastro");
-            Map(p => p.Id).Column("id").Key(KeyType.Identity);
-            Map(P => P.Codigo).Column("codigo");
-            Map(p => p.Nome).Column("nome");
-            Map(p => p.Descricao).Column("descricao");
-            Map(p => p.Preco).Column("preco");
-            Map(p => p.QuantidadeEmEstoque).Column("quantidadeemestoque");
-            Map(p => p.Categoria).Column("categoria");
+
+            Map(p => p.Id)
+                .Column("id").Key(KeyType.Identity);
+
+            Map(P => P.Codigo)
+                .Column("codigo");
+
+            Map(p => p.Nome)
+                .Column("nome");
+
+            Map(p => p.Descricao)
+                .Column("descricao");
+
+            Map(p => p.Preco)
+                .Column("preco");
+
+            Map(p => p.QuantidadeEmEstoque)
+                .Column("quantidadeemestoque");
+
+            Map(p => p.IdCategoria)
+                .Column("id_categoria");
+
+            Map(p => p.Categoria)
+                .Ignore();
+
+            AutoMap();
         }
     }
 }

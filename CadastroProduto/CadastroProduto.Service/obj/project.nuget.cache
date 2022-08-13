@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uMlVQyoTLszW42G4xju6JZ2uRPihD3IWJYE3jOvBF903KryhR0201YAEkE/hSrbL/ja+vXmfHaCKXV2FnS0srg==",
+  "dgSpecHash": "bSF2xh7UUja2c3gjEabFxhhugNWeaYz8390v7YGEfNqctEvGTCG2tsPK7kIR/Qe+kwnKBY7TClT1i3PnhtULQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
   "expectedPackageFiles": [

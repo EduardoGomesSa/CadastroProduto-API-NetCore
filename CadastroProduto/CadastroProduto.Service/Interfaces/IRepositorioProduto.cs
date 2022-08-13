@@ -1,6 +1,6 @@
 ﻿using CadastroProduto.Dominio.Entidades;
 
-namespace CadastroProduto.Service.Interaces
+namespace CadastroProduto.Service.Interfaces
 {
     public interface IRepositorioProduto : IRepositorioBase<Produto>
     {
@@ -9,5 +9,7 @@ namespace CadastroProduto.Service.Interaces
         bool AtualizarQuantidade(Int64 id, int quantidade);
         bool AtualizarProduto(Int64 id, decimal preco, int quantidade);
         bool CodigoProdutoExiste(string codigo);
+        bool IdProdutoExiste(Int64 id);
+        bool CategoriaAindaTemProduto(int idCategoria);
     }
 }

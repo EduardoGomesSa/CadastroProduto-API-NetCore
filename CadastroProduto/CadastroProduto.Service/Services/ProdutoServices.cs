@@ -1,19 +1,35 @@
 ﻿using CadastroProduto.Dominio.Entidades;
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Service.Interfaces;
 
 namespace CadastroProduto.Service.Services
 {
     public class ProdutoServices : IProdutoServices
     {
         private readonly IRepositorioProduto _repositorioProduto;
+        private readonly IRepositorioCategoria _repositorioCategoria;
 
-        public ProdutoServices(IRepositorioProduto repositorioProduto)
+        public ProdutoServices(IRepositorioProduto repositorioProduto, IRepositorioCategoria repositorioCategoria)
         {
             _repositorioProduto = repositorioProduto;
+            _repositorioCategoria = repositorioCategoria;
         }
 
         public bool Adicionar(Produto produto)
         {
+            var categoriaExiste = _repositorioCategoria.BuscarCategoriaPorNome(produto.Categoria.Nome);
+            Int64 idCategoria = 0;
+
+            if(categoriaExiste == null)
+            {
+                idCategoria = _repositorioCategoria.Inserir(produto.Categoria);
+            }
+            else
+            {
+                idCategoria = categoriaExiste.Id;
+            }
+
+            produto.SetIdCategoria(idCategoria);
+
             return _repositorioProduto.Inserir(produto) > 0;
         }
 
@@ -36,7 +52,18 @@ namespace CadastroProduto.Service.Services
         {
             var produto = _repositorioProduto.BuscarPorId(id);
 
-            return _repositorioProduto.Excluir(produto);
+            var produtoExcluido = _repositorioProduto.Excluir(produto);
+
+            var categoriaAindaTemProdutos = _repositorioProduto.CategoriaAindaTemProduto((int)produto.IdCategoria);
+
+            if (categoriaAindaTemProdutos == false)
+            {
+                var categoria = _repositorioCategoria.BuscarPorId(produto.IdCategoria);
+
+                _repositorioCategoria.Excluir(categoria);
+            }
+
+            return produtoExcluido;
         }
 
         public Produto MostrarPorId(long id)
@@ -53,6 +80,11 @@ namespace CadastroProduto.Service.Services
         public bool CodigoProdutoExiste(string codigo)
         {
             return _repositorioProduto.CodigoProdutoExiste(codigo);
+        }
+
+        public bool IdProdutoExiste(long id)
+        {
+            return _repositorioProduto.IdProdutoExiste(id);
         }
     }
 }

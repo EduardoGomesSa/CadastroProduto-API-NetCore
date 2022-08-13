@@ -1,4 +1,4 @@
-﻿namespace CadastroProduto.Service.Interaces
+﻿namespace CadastroProduto.Service.Interfaces
 {
     public interface IRepositorioBase<TEntity>
     {

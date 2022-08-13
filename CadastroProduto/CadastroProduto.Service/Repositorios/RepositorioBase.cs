@@ -1,5 +1,5 @@
 ﻿using CadastroProduto.Dominio.Entidades;
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Service.Interfaces;
 using DapperExtensions.Mapper;
 using Shared.Data;
 using System.Reflection;

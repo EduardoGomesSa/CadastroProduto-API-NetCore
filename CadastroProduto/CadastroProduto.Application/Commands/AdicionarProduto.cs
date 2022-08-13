@@ -1,5 +1,6 @@
 ﻿
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Dominio.Entidades;
+using CadastroProduto.Service.Interfaces;
 using FluentValidation;
 using MediatR;
 
@@ -12,7 +13,7 @@ namespace CadastroProduto.Application.Commands
         public string? Descricao { get; set; }
         public decimal Preco { get; set; }
         public int QuantidadeEmEstoque { get; set; }
-        public string? Categoria { get; set; }
+        public AdicionarCategoria Categoria { get; set; }
     }
 
     public class ValidadorAdicionarProduto : AbstractValidator<AdicionarProduto>
@@ -33,8 +34,9 @@ namespace CadastroProduto.Application.Commands
             RuleFor(p => p).Must(a => a.Preco > 0).WithMessage("Preço não pode ser 0");
             RuleFor(p => p.QuantidadeEmEstoque).NotEmpty().NotNull().WithMessage("QuantidadeEmEstoque não pode ser nulo ou vazio");
             RuleFor(p => p).Must(a => a.QuantidadeEmEstoque > 0).WithMessage("QuantidadeEmEstoque não pode ser 0");
-            RuleFor(p => p.Categoria).NotEmpty().NotNull().WithMessage("Categoria não pode ser nulo ou vazio");
-            RuleFor(p => p.Categoria).MinimumLength(3).MaximumLength(30).WithMessage("Codigo deve conter de 3 a 30 caracteres");
+
+            RuleFor(p => p.Categoria.Nome).NotEmpty().NotNull().WithMessage("Categoria não pode ser nulo ou vazio");
+            RuleFor(p => p.Categoria.Nome).MinimumLength(3).MaximumLength(30).WithMessage("O nome da categoria deve ser de 3 a 30 caracteres");
         }
     }
 }

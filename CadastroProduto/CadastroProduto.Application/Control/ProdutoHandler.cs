@@ -1,7 +1,7 @@
 ﻿
 using CadastroProduto.Application.Commands;
 using CadastroProduto.Dominio.Entidades;
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Service.Interfaces;
 using FluentValidation.Results;
 using MediatR;
 
@@ -75,7 +75,8 @@ namespace CadastroProduto.Application.Control
                                 adicionarProduto.Descricao,
                                 adicionarProduto.Preco,
                                 adicionarProduto.QuantidadeEmEstoque,
-                                adicionarProduto.Categoria
+                                0,
+                                new Categoria(0, adicionarProduto.Categoria.Nome)
                                );
         }
 
@@ -87,22 +88,22 @@ namespace CadastroProduto.Application.Control
 
         public ValidationResult ObterResultadoValidacao(DeletarProduto deletarProduto)
         {
-            return new ValidadorDeletarProduto().Validate(deletarProduto);
+            return new ValidadorDeletarProduto(_produtoServices).Validate(deletarProduto);
         }
 
         public ValidationResult ObterResultadoValidacao(AtualizarPrecoProduto atualizarPrecoProduto)
         {
-            return new ValidadorAtualizarPrecoProduto().Validate(atualizarPrecoProduto);
+            return new ValidadorAtualizarPrecoProduto(_produtoServices).Validate(atualizarPrecoProduto);
         }
 
         public ValidationResult ObterResultadoValidacao(AtualizarQuantidadeProduto atualizarQuantidadeProduto)
         {
-            return new ValidadorAtualizarQuantidadeProduto().Validate(atualizarQuantidadeProduto);
+            return new ValidadorAtualizarQuantidadeProduto(_produtoServices).Validate(atualizarQuantidadeProduto);
         }
 
         public ValidationResult ObterResultadoValidacao(AtualizarParcialProduto atualizarParcialProduto)
         {
-            return new ValidadorAtualizarParcialProduto().Validate(atualizarParcialProduto);
+            return new ValidadorAtualizarParcialProduto(_produtoServices).Validate(atualizarParcialProduto);
         }
     }
 }

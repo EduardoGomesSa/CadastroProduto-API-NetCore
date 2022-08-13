@@ -1,7 +1,7 @@
 ﻿
 using CadastroProduto.Dominio.Entidades;
 
-namespace CadastroProduto.Service.Interaces
+namespace CadastroProduto.Service.Interfaces
 {
     public interface IProdutoServices
     {
@@ -13,5 +13,6 @@ namespace CadastroProduto.Service.Interaces
         List<Produto> MostrarTodos();
         Produto MostrarPorId(Int64 id);
         bool CodigoProdutoExiste(string codigo);
+        bool IdProdutoExiste(Int64 id);
     }
 }

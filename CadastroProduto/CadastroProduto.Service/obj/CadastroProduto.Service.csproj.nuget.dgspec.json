@@ -66,7 +66,7 @@
         "projectName": "CadastroProduto.Service",
         "projectPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\CadastroProduto.Service.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduar\\Source\\Repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\obj\\",
+        "outputPath": "C:\\Users\\eduar\\source\\repos\\CadastroProduto-API-NetCore\\CadastroProduto\\CadastroProduto.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -47,8 +47,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
 
@@ -65,7 +64,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         } 
 
@@ -82,7 +81,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
 
@@ -99,7 +98,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
 
@@ -116,7 +115,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
 
@@ -133,7 +132,7 @@ namespace CadastroProduto.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
     }

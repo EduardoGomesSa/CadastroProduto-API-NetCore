@@ -2,7 +2,7 @@ using CadastroProduto.Application.Commands;
 using CadastroProduto.Application.Control;
 using CadastroProduto.Application.Queries;
 using CadastroProduto.Dominio.Entidades;
-using CadastroProduto.Service.Interaces;
+using CadastroProduto.Service.Interfaces;
 using CadastroProduto.Service.Maps;
 using CadastroProduto.Service.Repositorios;
 using CadastroProduto.Service.Services;
@@ -32,7 +32,9 @@ builder.Services.AddScoped<IRequestHandler<BuscarProdutoPorId, BuscarProduto>, P
 // Interfaces de services
 builder.Services.AddScoped<IProdutoServices, ProdutoServices>();
 builder.Services.AddScoped<IRepositorioProduto, RepositorioProduto>();
+builder.Services.AddScoped<IRepositorioCategoria, RepositorioCategoria>();
 builder.Services.AddScoped<IRepositorioBase<Produto>, RepositorioBase<Produto, ProdutoMap>>();
+builder.Services.AddScoped<IRepositorioBase<Categoria>, RepositorioBase<Categoria, CategoriaMap>>();
 
 var app = builder.Build();
 
