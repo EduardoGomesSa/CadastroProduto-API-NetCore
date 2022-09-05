@@ -15,6 +15,8 @@ executando um CRUD de funções<br>
 - ``Dapper``
 - ``Swagger``
 
+✔️ Estrutura do Projeto:
+
 ![image](https://user-images.githubusercontent.com/99502227/184515754-d8d52390-ddcf-47fe-ac32-d360e76fe5c7.png)
 
 <hr>
